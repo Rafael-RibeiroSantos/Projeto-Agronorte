@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.div-imagem-container {
+    background-size: cover;
+    background-color: black;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-container {
+    height: 800px;
+    width: 100%;
+    opacity: 0.5;
+    border-bottom: 2px solid brown;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    /* border-bottom: 1px solid #01452e; */
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    flex: 20%;
+    margin-left: 7%;
+    /* border: 1px solid red; */
+    text-align: left;
+}
+
+.logo img {
+    width: 250px;
+    padding-top: 15px;
+}
+
+.menu {
+    flex: 70%;
+
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+    color: #01452e;
+
+}
+
+.menu a:hover {
+    color: #5da72b;
+    border-bottom: 2px solid #e4a82e;
+
+}
+
+#botao-fale-conosco {
+    background-color: #5da72b;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 7%;
+    margin-left: 5%;
+}
+
+#botao-fale-conosco:hover {
+    border: none;
+    background-color: #e4a82e;
+}
+
+
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    /* background-color:white; */
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin-top: 5%;
+}
+
+.informacoes-container {
+   margin-left: 15%;
+   margin-right: 15%;
+   
+   /* border: 1px solid black; */
+   font-weight: bold 900;
+   text-align: center;
+}
+
+.informacoes-container h1, h2 {
+    font-weight: 900;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    text-shadow: 1px 1px 1px white, -1px 1px 1px white, 1px -1px 1px white, -1px -1px 1px white;
+}
+
+.informacoes-container p {
+    color: #f7bd1d;
+    
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+/* .imagem-container {
+    margin-right: 7%;
+    flex: 43%;
+    border: 1px solid black;
+    text-align: center;
+} */
+
+.div-imagem-servicos {
+    background-color: black;
+    display: flex;
+    position: absolute;
+    margin-top: 398px;
+    z-index: -1;
+    height: auto;
+    width: 100%;
+}
+    
+
+.imagem-servicos {
+    height: 78em;
+    width: 100%;
+    opacity: 0.6;
+    
+}
+
+.servicos {
+    /* display: flex;
+    flex-flow: row wrap; */
+    /* border: 1px solid white; */
+    margin-top: 450px;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.servicos h2 {
+    color: #01452e;
+    font-size: 50px;
+    /* border: 2px solid black; */
+    text-align: center;
+    padding: 5%;
+    text-shadow: 1px 1px 1px white, -1px 1px 1px white, 1px -1px 1px white, -1px -1px 1px white;
+}
+
+.informacoes-servicos {
+    padding: 10px;
+    color: white;
+}
+
+.simbolos-servicos {
+    display: flex;
+    /* border: 1px solid white; */
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.simbolos-servicos img {
+    margin-top: 20px;
+    margin-right: 20px;
+    max-width: 64px;
+    max-height: 64px;
+}
+
+.simbolos-servicos h3 {
+    color: #01452e;
+    /* border: 2px solid white; */
+    font-size: 30px;
+    text-shadow: 1px 1px 1px white, -1px 1px 1px white, 1px -1px 1px white, -1px -1px 1px white;
+}
+
+.botao-entre-em-contato {
+    display: flex;
+    /* border: 2px solid white; */
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.botao-entre-em-contato button {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    background-color: #01452e;
+    border-radius: 2%;
+}
+
+.botao-entre-em-contato button:hover {
+    background-color: #e4a82e;
+    color: #000000;
+}
+
+
+.rodape {
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(13,13,13,1) 50%, rgba(52,40,34,1) 100%);
+    border: 1px solid black;
+    width: 100%;
+    height: 200px;
+    margin-top: 190px;
+}
+
+.creditos {
+    display: inline-flex;
+    /* border: 1px solid white; */
+    color: white;
+    font-size: 9px;
+    margin-top: 80px;
+    padding-left: 2px;
+}
+
+.redes-sociais {
+    margin-left: 7%;
+    margin-right: 7%;
+    display: flex;
+    /* border: 1px solid white; */
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.redes-sociais img {
+    padding-left: 40px;
+}
